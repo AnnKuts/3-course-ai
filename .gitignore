@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+!/lab5/README.md
+
+# macOS
+.DS_Store
+

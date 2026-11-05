@@ -1,0 +1,12 @@
+{
+  "epochs": 5,
+  "best_val_accuracy": 0.985,
+  "test_accuracy": 0.985,
+  "test_loss": 0.042067488155188036,
+  "noise_experiment": {
+    "examples": 1000,
+    "sigma": 0.25,
+    "clean_accuracy": 0.984,
+    "noisy_accuracy": 0.967
+  }
+}

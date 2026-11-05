@@ -1,9 +1,34 @@
+# Віртуальне оточення Python
 .venv/
+env/
+venv/
+
+# Байткод і кеш Python
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Датасет MNIST
 data/
-model/*.pt
-results/*.png
-results/*.json
+
+## Ваги моделі
+#model/*.pt
+#model/*.pth
+#model/*.onnx
+
+## Згенеровані графіки та результати
+#results/*.png
+#results/*.json
+
+# Node.js / фронтенд
+node_modules/
+dist/
+*.log
+
+# Системні файли macOS та редактори
 .DS_Store
-frontend/node_modules/
+.idea/
+.vscode/
+
+# Змінні середовища
+.env
