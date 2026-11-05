@@ -1,0 +1,12 @@
+{
+  "name": "digit-cnn-lab5",
+  "private": true,
+  "description": "Digit recognition with PyTorch CNN & React frontend",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "lint": "npm --prefix frontend run lint",
+    "preview": "npm --prefix frontend run preview",
+    "install:frontend": "npm --prefix frontend install"
+  }
+}
