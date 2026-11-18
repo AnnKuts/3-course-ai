@@ -151,7 +151,7 @@ connect(x_sum+.035, .68, x_out-.06, .49)
 connect(x_sum+.035, .30, x_out-.06, .49)
 fig1.tight_layout(rect=(0.0, 0.0, 1.0, 0.95))
 fig1.savefig(folder / "01_structure.png", dpi=180)
-plt.show()  # Закрийте вікно, щоб перейти до наступного рисунка.
+plt.show()
 
 fig2, axes2 = plt.subplots(1, 2, figsize=(12, 4.6))
 fig2.suptitle("Навчені функції приналежності вхідних змінних", fontsize=14)
